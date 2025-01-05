@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matcha Suki</title>
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/logo secangkir matcha simpel.png" />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo">Matcha<span>Suki</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+
+        <a href="index.html #about">About</a>
+
+        <a href="index.html #menusec">Menu</a>
+
+        <a href="trans.html">Transaction</a>
+
+        <a href="login.html">Login</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="index.html #menusec" id="search"
+          ><i data-feather="search"></i
+        ></a>
+        <a href="trans.html" id="shopping-cart"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <table border="3" cellpadding="50">
+      <tr>
+        <td>Name</td>
+        <td>
+          <input type="text" name="username" id="username" />
+        </td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>
+          <input type="password" name="password" id="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>Re-type Password</td>
+        <td>
+          <input type="password" name="password" id="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>E-mail</td>
+        <td>
+          <input type="email" name="email" id="email" />
+        </td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>
+          <input type="text" name="alamat" id="alamat" />
+        </td>
+      </tr>
+      <tr>
+        <td>Kota Asal</td>
+        <td>
+          <input type="text" name="kota" id="kota" />
+        </td>
+      </tr>
+      <tr>
+        <td>Metode Pembayaran</td>
+        <td>
+          <select name="metode" id="metode">
+            <option value="E-Wallet">E-Wallet</option>
+            <option value="Qris">Qris</option>
+            <option value="Transfer">Transfer Bank</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Menu Pesanan</td>
+        <td>
+          <input type="checkbox" name="pesanan" value="pesanan" /> Latte <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Roll Cake
+          <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Whipped Cream
+          <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Silky Pudding
+          <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Ice Cream
+          <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Macaroon
+          <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Mille Crepes
+          <br />
+          <input type="checkbox" name="pesanan" value="pesanan" /> Dessert Box
+          <br />
+        </td>
+      </tr>
+
+      <tr>
+        <td>Tambahan</td>
+        <td>
+          <textarea name="message" id="message" rows="5" cols="50"></textarea
+          ><br /><br />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <button type="reset">Hapus</button>
+          <button type="submit">Kirim</button>
+        </td>
+      </tr>
+    </table>
+
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menusec">Menu</a>
+        <a href="login.html">Login</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">FakhmiMulki</a>. &copy; 2023</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <!--Java-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
